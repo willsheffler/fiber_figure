@@ -1,0 +1,8 @@
+name: fiberfig
+channels:
+  - schrodinger
+dependencies:
+  - qt
+  - pymol
+  - numpy
+
