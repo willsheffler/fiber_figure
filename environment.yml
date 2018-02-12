@@ -1,8 +1,11 @@
 name: fiberfig
 channels:
+  - conda-forge
   - schrodinger
 dependencies:
   - qt
   - pymol
   - numpy
-
+  - fire
+  - pip:
+    - homog >= 0.1.10

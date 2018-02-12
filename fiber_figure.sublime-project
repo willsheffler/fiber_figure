@@ -1,0 +1,32 @@
+{
+	"build_systems":
+	[
+        {
+            "name": "test pdb 1",
+            "shell_cmd": "cd $folder; echo pwd: `pwd` > sublime_build.log; echo python: `which python` >> sublime_build.log; python make_crazy_fiber_figure.py HS29_N1_C3_DR54_234_design_symm.pdb &>> sublime_build.log"
+        },
+        {
+            "name": "test pdb 2",
+            "shell_cmd": "cd $folder; echo pwd: `pwd` > sublime_build.log; echo python: `which python` >> sublime_build.log; python make_crazy_fiber_figure.py F03_N1_C1_DR64_018_design_symm.pdb &>> sublime_build.log"
+        }
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				".cache",
+				".tox",
+				"build",
+				"dist",
+				"*.egg-info",
+				"__pycache__",
+				"_build"
+			],
+			"path": "."
+		},
+		{
+			"path": "/home/sheffler/pymol3"
+		}
+	]
+}
